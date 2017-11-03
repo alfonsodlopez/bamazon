@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Node JS store front with mysql db",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "inquirer": "^3.3.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node bamazonCustomer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfonsodlopez/bamazon.git"
+  },
+  "author": "Alfonso Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfonsodlopez/bamazon/issues"
+  },
+  "homepage": "https://github.com/alfonsodlopez/bamazon#readme"
+}

@@ -11,20 +11,14 @@ If this activity took you between 8-10 hours, then you've put enough time into
 this assignment. Feel free to stop here -- unless you want to take on the next
 challenge. */
 
-var mysql = require('mysql');
 var Table = require('cli-table');
 var inquirer = require('inquirer')
+var mysql = require('mysql');
 
 function connectToDb() {
 	/*Connect to db*/
-	var con = mysql.createConnection({
-		host: "localhost",
-		port: 3306,
-		user: "root",
-		password: "M0shiM0shi",
-		database: "bamazon"
-	});
-
+	var secrets = require("./connection.js");
+	var con = mysql.createConnection(secrets.details);
 	con.connect();
 
 	/*Display all items available for sale*/
