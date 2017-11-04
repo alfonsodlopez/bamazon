@@ -1,6 +1,6 @@
 # bamazon
 
-Demo of the bamazonCustomer and bamazonManager applications can be seen **[here]**(https://github.com/alfonsodlopez/bamazon/blob/master/demo.mp4?raw=true)
+Demo of the bamazonCustomer and bamazonManager applications can be seen [here](https://github.com/alfonsodlopez/bamazon/blob/master/demo.mp4?raw=true)
 
 ### bamazon is a simple nodeJS storefront. There are two files included. 
 
@@ -13,9 +13,13 @@ Demo of the bamazonCustomer and bamazonManager applications can be seen **[here]
 
 ## bamazonManager.js
 * Invoke the function with `node bamazonManager.js` the manager will be presented with a menu of options:
-** View Products for Sale, all items available for purchase `qty > 0` will be displayed with their details
-** View Low Inventory, all items with an inventory `qty < 5` will be displayed with their details.
-** Add to Inventory, Manager is prompted to replenish inventory of any item in the store.
-** Add New Product, Manager is prompted to add a new product to the store databases
+  * View Products for Sale, all items available for purchase `qty > 0` will be displayed with their details
+  * View Low Inventory, all items with an inventory `qty < 5` will be displayed with their details.
+  * Add to Inventory, Manager is prompted to replenish inventory of any item in the store.
+  * Add New Product, Manager is prompted to add a new product to the store databases
+  
+  
+## createTables.sql
+* This file contain the SQL query used to create the mySQL databases along with filler data for testing purposes.
 
 
